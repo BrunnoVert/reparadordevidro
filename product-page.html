@@ -1,0 +1,1485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+
+  <style media="screen">
+
+  .fa-star{
+    color: #ee9e13;
+    font-size: 14px;
+  }
+
+  .product-rating{
+    position: relative;
+    top: -5px;
+    color: #333;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+ .product-title{
+  font-weight: 400;
+}
+
+ .oferta{
+   color: #3bb54a;
+ }
+
+
+ .counter {
+     font-size: 1em;
+     padding: 0.5em;
+     border-radius: 1em;
+     font-family: sans-serif;
+ }
+
+  .quantity-left-minus .quantity-right-plus , .counter-input {
+     font-size: inherit;
+     padding: 0.2em;
+     margin: 0.1em 0.2em;
+     /* the following ensures they're all using the same box-model for rendering */
+     -moz-box-sizing: content-box; /* or `border-box` */
+     -webkit-box-sizing: content-box;
+     box-sizing: content-box;
+ }
+
+ .btn-counter {
+   color: #000;
+   background-color: #ffffff!important;
+ }
+
+
+.section-gap {
+    padding: 60px 0;
+}
+
+.single-review {
+    text-align: center;
+    background-color: #f9f9ff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.single-review p {
+    margin-top: 20px;
+}
+
+
+.footer-area {
+    padding-top: 100px;
+    background-color: #1b1b1b;
+    color: #777777;
+}
+
+.section-gap {
+    padding: 60px 0;
+}
+
+
+.footer-text {
+    padding-top: 20px;
+}
+
+.single-footer-img {
+    background-image: url('https://brvegazee.com/img/mercadopago2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 8vw;
+    background-position: center;
+    background-position: center;
+}
+
+.vegaz-footer {
+    background-image: url('https://ecommvegaz.com.br/assets/vegaz.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" style="background:#1b1b1b !important;">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+        <!-- <strong class="blue-text">VEGAZ</strong> -->
+        <img src="https://ecommvegaz.com.br/assets/vegaz.svg" alt="">
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <!-- <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link waves-effect" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">About MDB</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/getting-started/download/"
+              target="_blank">Free download</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Free
+              tutorials</a>
+          </li>
+        </ul> -->
+
+        <!-- Right -->
+        <!-- <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a class="nav-link waves-effect">
+              <span class="badge red z-depth-1 mr-1"> 1 </span>
+              <i class="fas fa-shopping-cart"></i>
+              <span class="clearfix d-none d-sm-inline-block"> Cart </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.facebook.com/mdbootstrap" class="nav-link waves-effect" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://twitter.com/MDBootstrap" class="nav-link waves-effect" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded waves-effect"
+              target="_blank">
+              <i class="fab fa-github mr-2"></i>MDB GitHub
+            </a>
+          </li>
+        </ul> -->
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  <!--Main layout-->
+  <main class="mt-5 pt-4">
+    <div class="container dark-grey-text mt-5">
+
+      <!--Grid row-->
+      <div class="row wow fadeIn">
+
+        <!--Grid column-->
+        <div class="col-md-6 mb-4">
+
+          <img src="https://vegazco.com/wp-content/uploads/2021/02/Hd0574d7c358a479fab677c4b70eebd19f.jpg" class="img-fluid" alt="">
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-6 mb-4">
+
+          <!--Content-->
+          <div class="p-4">
+
+            <!-- <div class="mb-3">
+              <a href="">
+                <span class="badge purple mr-1">Category 2</span>
+              </a>
+              <a href="">
+                <span class="badge blue mr-1">New</span>
+              </a>
+              <a href="">
+                <span class="badge red mr-1">Bestseller</span>
+              </a>
+            </div> -->
+
+            <span class="oferta">ÚLTIMO DIA DE FRETE GRÁTIS!</span>
+
+            <h1 class="product-title" style="
+            font-family: inherit;
+            FONT-WEIGHT: 600;
+            font-size: 24px;
+            ">Reparador de vidro</h1>
+
+            <p class="lead">
+              <span class="mr-1">
+                <del>R$<del id="price-black-old">R$195</del>,00</del>
+              </span>
+              <span>R$<span id="price-black-promo">97</span>,00</span>
+            </p>
+
+            <p>
+              <span style="color:#02b502;">Compra Garantida.</span>&nbsp;receba o produto que está esperando ou devolvemos o dinheiro.
+            </p>
+
+
+            <p>
+              <span style="color:#02b502;">Devolução grátis.</span>&nbsp;Você tem 7 dias a partir da data de recebimento.
+            </p>
+
+            <p class="lead font-weight-bold">Description</p>
+
+            <div class="product-rating">
+
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+
+              <p class="rating">14 avaliações</p>
+            </div>
+
+
+
+            <form class=" justify-content-left">
+              <!-- Default input -->
+
+              <div style="display:flex;" class="counter">
+              <div class="col-lg-12">
+                <div class="input-group counter-input">
+                  <span class="input-group-btn">
+                    <button type="button"
+                      class="quantity-left-minus btn btn-counter btn-number black-minus"
+                      data-type="minus" data-field="">
+                      <i class="fa fa-minus"></i>
+                    </button>
+                  </span>
+                  <input disabled type="text" id="quantity-black" name="quantity"
+                    autocomplete="off" class="form-control input-number text-align-center"
+                    value="1" min="1" max="10" style="margin-top:9px !important; max-width:5em; text-align:center;">
+                  <span class="input-group-btn">
+                    <button type="button"
+                      class="quantity-right-plus btn btn-counter btn-number black-plus"
+                      data-type="plus" data-field="">
+                      <i class="fa fa-plus"></i>
+                    </button>
+                  </span>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="text-center" style="display:grid;" width:100>
+              <a id="buy-black" href="#" class="btn btn-primary btn-lg text-center" type="submit" style="background:#3bb54a !important;">Comprar
+                <i class="fas fa-shopping-cart ml-1"></i>
+              </a>
+            </div>
+
+
+
+              <!-- <input type="number" value="1" aria-label="Search" class="form-control" style="width: 100px"> -->
+
+            </form>
+
+          </div>
+          <!--Content-->
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+      <hr>
+
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center wow fadeIn">
+
+        <!--Grid column-->
+        <!-- <div class="col-md-6 text-center">
+
+          <h4 class="my-4 h4">Additional information</h4>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus suscipit modi sapiente illo soluta odit
+            voluptates,
+            quibusdam officia. Neque quibusdam quas a quis porro? Molestias illo neque eum in laborum.</p>
+
+        </div> -->
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+      <div width="100%" style="text-align: center;">
+
+        <span id='sel1' onclick="show('sel1','resultsel1');" class=" btn btn-outline-primary">Descrição</span>
+
+        <span id='sel2' onclick="show('sel2','resultsel2');" class=" btn btn-outline-info">Avaliações</span>
+
+        <!-- <span id='sel3' onclick="show('sel3','resultsel3');" class="m-4">div2</span> -->
+
+      </div>
+
+
+      <div id="resultsel1">
+
+
+              <!--Grid row-->
+              <div class="grid__item large--one-whole"><meta charset="utf-8"><p></p>
+            <p style="text-align: center;">&nbsp;&nbsp;<strong><span style="color: #000000;"><img class="img-fluid" src="https://vegazecom.com/wp-content/uploads/2021/02/3e089ba4-3ed1-431b-96c5-76a02802d389.jpg"></span></strong></p>
+            <p style="text-align: center;"><strong><span style="color: #000000;">&nbsp;<br>Seus&nbsp;dias de preocupação com rachaduras terminaram!</span></strong>&nbsp;</p>
+            <p style="text-align: center;"><span style="color: #000000;"><strong>Repara todos os tipos de vidros</strong>: Comuns, Telas de celulares e Automotivos&nbsp;</span></p>
+            <p style="text-align: center;">&nbsp;</p>
+            <p><meta charset="utf-8"></p>
+            <p style="text-align: center;"><strong style="color: #000000; font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 1.4em;"><img src="https://images.assets-landingi.com/FwmhH5OR/C_139a311a_e60f_4a65_a4f0_c48d7a6cbba2_480x480.gif" style="margin:auto;" data-mce-fragment="1">&nbsp;</strong></p>
+            <p style="text-align: center;"><strong style="color: #000000; font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; font-size: 1.4em;">&nbsp;</strong></p>
+            <p style="text-align: center;"><strong><span style="color: #000000;">O segredo por trás do Super Fluído Reparador de Vidro</span></strong></p>
+            <p style="text-align: center;">Conheça seus principais benefícios</p>
+            <p style="text-align: center;">&nbsp;</p>
+            <p><meta charset="utf-8"></p>
+            <p style="text-align: center;"><img src="https://imgur.com/y1U0URe.gif" style="margin:auto;" alt="Kit de Fluido Reparador de Vidro Magic Glass" data-mce-fragment="1"></p>
+            <p><meta charset="utf-8"></p>
+            <p style="text-align: center;">&nbsp;</p>
+            <p style="text-align: center;"><span style="color: #000000;"><strong>Repara todos os tipos de vidros e telas de celulares</strong></span></p>
+            <p style="text-align: center;"><span style="color: #000000;">Com muita <strong>segurança</strong> e <strong>praticidade</strong> esse super reparador permite que qualquer pessoa em apenas <strong>20 minutos</strong> conserte <strong>rachaduras</strong>, <strong>lascas</strong> nos <strong>para-brisas</strong>, <strong>trincos</strong> na tela do <strong>celular</strong>&nbsp;e <strong>imperfeições</strong> em <strong>vidros</strong> em geral.</span>&nbsp;</p>
+            <p style="text-align: center;">&nbsp;</p>
+            <p><meta charset="utf-8"><meta charset="utf-8"><meta charset="utf-8"></p>
+            <p style="text-align: center;"><img class="img-fluid" alt="Super Fluido Reparador– Virtual Store Inovação" src="https://cdn.shopify.com/s/files/1/0275/8747/7556/t/3/assets/pf-e2ea5d7c-ce9a-4413-b8f4-87b7cab3f725--74b96dbb2d19db9758ba306fc55ad040480x480.jpg?v=1577818900" style="margin:auto;" data-mce-fragment="1"></p>
+            <p style="text-align: center;">&nbsp;</p>
+            <p style="text-align: center;"><strong><span style="color: #000000;">Efetivamente minimiza a aparência de rachaduras e impede que se espalhem.</span></strong></p>
+            <p style="text-align: center;">&nbsp;</p>
+            <p style="text-align: center;"><span style="color: #000000;">O <strong>Super Fluido Reparador</strong> conta com a <strong>tecnologia</strong> <strong>exclusiva</strong> POWER FULL ADVANCED com RESINA ALEMÃ, remove o ar da ruptura, enche-o de resina durável e o torna ainda <strong>mais forte</strong> do que antes.</span>&nbsp;</p>
+            <p style="text-align: center;"><span style="color: #000000;">Para obter <strong>melhores resultados</strong>, os <strong>reparos</strong> devem ser feitos o <strong>mais rápido</strong> possível, após o dano ocorrer e antes que o mesmo seja contaminado por <strong>sujeira</strong> ou <strong>água</strong>.</span></p>
+            <p style="text-align: center;">&nbsp;</p>
+            <p><meta charset="utf-8"></p>
+            <p style="text-align: center;"><img alt="Glass Repair - Reparador de Vidros – Loja Ferreira" src="https://cdn.shopify.com/s/files/1/0269/9670/3347/files/propaganda_vidro_2_480x480.gif?v=1589740124" style="margin:auto;"></p>
+            <p style="text-align: center;">&nbsp;</p>
+            <p style="text-align: center;"><span style="color: #000000;"><strong>Econômico</strong></span></p>
+            <p style="text-align: center;"><span style="color: #000000;">Um <strong>para-brisa</strong> ou <strong>tela de celular&nbsp;novos</strong> podem custar uma&nbsp;<strong>fortuna</strong> dependendo do modelo!</span></p>
+            <p style="text-align: center;"><span style="color: #000000;">Com muita <strong>segurança</strong> e <strong>praticidade</strong> esse <strong>super Fluído</strong> fará com que você <strong>economize</strong> <strong>muito dinheiro</strong>!</span></p>
+            <p style="text-align: center;">&nbsp;</p>
+            <p style="text-align: center;"><strong><span style="color: #000000;">Veja&nbsp;o quanto você irá economizar&nbsp;comprando o super fluído&nbsp;reparador de vidro profissional – power full advanced:</span></strong></p>
+            <p style="text-align: center;"><span style="color: #000000;">&nbsp;</span></p>
+            <h4 style="text-align: center;"><span style="color: #000000;"><img alt="" src="https://cdn.shopify.com/s/files/1/0112/0531/2575/files/fluido05_480x480.jpg?v=1583776531" class="img-fluid"style="margin:auto;"></span></h4>
+            <p><meta charset="utf-8"></p>
+            <div class="widget widget-section" id="gCR3rs05lIvlgaTbvcLo6rgcRNZT0GGe">
+            <div class="row">
+            <div class="container">
+            <div class="widget widget-text" id="XOAJZ7aPodM9aRhN54Rk1OelDNiagUFs">
+            <h3 style="text-align: center;"><strong><span style="color: #000000;">Economize&nbsp;tempo&nbsp;e dinheiro</span></strong></h3>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div style="text-align: center;" class="widget widget-section" id="JsEI4cbqLkftvXnhBNLC5xqVfMWxaFOW">
+            <div class="row">
+            <p class="widget widget-text" id="DEEDo1WHSdPwEx2tX2WFI1JWpZ0T3t67" style="text-align: center;"><span style="color: #000000;">Só quem já perdeu algum material de vidro sabe o quanto é caro e o quanto dói no bolso ter que comprar um novo, o&nbsp;reparador de Vidro fará com que você&nbsp;economize seu dinheiro até 5 vezes o valor do produto quebrado.</span>&nbsp;</p>
+            <p class="widget widget-text" style="text-align: center;">&nbsp;</p>
+            </div>
+            </div>
+            <div style="text-align: center;"><span style="font-size: 16px;"><strong></strong></span></div>
+            </div>
+              <!--Grid row-->
+
+
+
+</div>
+<div id="resultsel2">
+  <section class="review-area section-gap" id="review">
+  		<div class="container">
+  			<div class="row d-flex justify-content-center">
+  				<div class="menu-content pb-60 col-lg-10" style=" margin-bottom: 13px !important;">
+  					<div class="title text-center mt-1">
+  						<h1 class="mb-10">O que nossos clientes estão pensando?</h1>
+  						<p>Nos envie uma avaliação também!</p>
+
+  					</div>
+  				</div>
+  			</div>
+  			<div class="row">
+
+
+
+  					<div class="col-lg-4 col-md-6">
+  					<div class="single-review">
+  						<h4>Arnaldo de Souza</h4>
+  						<p>
+  							O meu ja acabou kkk, funciona mesmo galera, mas eu ja preciso de mais minha rachadura e um pouco grande
+  						</p>
+  						<div class="star">
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+
+  						</div>
+  					</div>
+  				</div>
+
+  				<div class="col-lg-4 col-md-6">
+  					<div class="single-review">
+  						<h4>Luiz Rosa</h4>
+  						<p>
+                Tecnologia incrível a de vocês!!
+  						</p>
+  						<div class="star">
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  						</div>
+  					</div>
+  				</div>
+  				<div class="col-lg-4 col-md-6">
+  					<div class="single-review">
+  						<h4>Cristina Alencar</h4>
+  						<p>
+  							Muito atenciosos, o produto ainda nao testei, mas o atendimento foi otimo
+
+
+  						</p>
+  						<div class="star">
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  						</div>
+              <img src="img/reviews/1.webp" class="img-fluid mt-4">
+
+  					</div>
+  				</div>
+
+  				<div class="col-lg-4 col-md-6">
+  					<div class="single-review">
+  						<h4>Mauricio Seixas</h4>
+  						<p>
+  							Me ajudou demais, agradeço a Vegaz pelo produto e pelo atendimento
+  						</p>
+  						<div class="star">
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  						</div>
+  					</div>
+  				</div>
+  				<div class="col-lg-4 col-md-6">
+  					<div class="single-review">
+  						<h4>Tiago Braile</h4>
+  						<p>
+  							Concertei ate os rachados da minha janela
+  						</p>
+  						<div class="star">
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star "></span>
+  						</div>
+
+
+  					</div>
+  				</div>
+
+  				<div class="col-lg-4 col-md-6">
+  					<div class="single-review">
+  						<h4>Cadu Amaral</h4>
+  						<p>
+                Gostei demais, me enviem outro !!
+  						</p>
+  						<div class="star">
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  						</div>
+  					</div>
+  				</div>
+
+
+  				<div class="col-lg-4 col-md-6">
+  					<div class="single-review">
+  						<h4>Rafael Martins</h4>
+  						<p>
+  							Bati o carro e meu farol estava rachado, esse produto me ajudou bastante, porem preciso de mais dele pois o meu só resta um pouco, bom produto
+  						</p>
+  						<div class="star">
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  						</div>
+
+  					</div>
+  				</div>
+
+
+  				<div class="col-lg-4 col-md-6">
+  					<div class="single-review">
+  						<h4>Vinicius Freitas</h4>
+  						<p>
+  							Tava com meu retrovisor todo quebrado, esse produto tirou completamente todos os meu problemas com isso, parabens
+  						</p>
+  						<div class="star">
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  						</div>
+
+
+  					</div>
+  				</div>
+
+  				<div class="col-lg-4 col-md-6">
+  					<div class="single-review">
+  						<h4>Fernanda Malentaqui</h4>
+  						<p>
+  							Produto excelente!!
+  						</p>
+  						<div class="star">
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  						</div>
+
+
+
+  					</div>
+  				</div>
+  			</div>
+  			<div class="row">
+  				<div class="col-lg-4 col-md-6">
+  					<div class="single-review">
+  						<h4>Josemar Goveia</h4>
+  						<p>
+  							Excelente !!
+  						</p>
+  						<div class="star">
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+
+  						</div>
+              <img src="img/reviews/2.jpg" class="img-fluid mt-4">
+
+
+  					</div>
+  				</div>
+  				<div class="col-lg-4 col-md-6">
+  					<div class="single-review">
+  						<h4>Everiton Nevony</h4>
+  						<p>
+  							Eu gostei muito recomendo para todos que não querem paga fur tuna com para brisa eu mesmo economizei 1,200,00 com o meu reparo.
+  						</p>
+  						<div class="star">
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star"></span>
+  							<span class="fa fa-star"></span>
+  						</div>
+  					</div>
+  				</div>
+
+
+  				<div class="col-lg-4 col-md-6">
+  					<div class="single-review">
+  						<h4>Anderson Filho</h4>
+  						<p>
+  							Chegou tranquilo, corrigiu o quebrado
+  						</p>
+  						<div class="star">
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  						</div>
+
+
+  					</div>
+  				</div>
+
+  				<div class="col-lg-4 col-md-6">
+  					<div class="single-review">
+  						<h4>William Correia</h4>
+  						<p>
+  							Adorei, irei comprar mais
+  						</p>
+  						<div class="star">
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star "></span>
+  						</div>
+
+
+  					</div>
+  				</div>
+
+  				<div class="col-lg-4 col-md-6">
+  					<div class="single-review">
+  						<h4>Fabio Capra</h4>
+  						<p>
+  							Meu pedido chegou bem no prazo combinado.
+  						</p>
+  						<div class="star">
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  						</div>
+
+
+
+  					</div>
+  				</div>
+
+  				<div class="col-lg-4 col-md-6">
+  					<div class="single-review">
+  						<h4>Andreia Fonseca</h4>
+  						<p>
+  							Tirou o trincado da tela do celular,vou comprar mais para deixar de reserva RSRSRS
+  						</p>
+  						<div class="star">
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+
+  						</div>
+  					</div>
+  				</div>
+
+  			</div>
+  			<div class="row">
+
+
+  				<div class="col-lg-4 col-md-6">
+  					<div class="single-review">
+  						<h4>Felipe Oliveira</h4>
+  						<p>
+  							chegou usei e deu certo, recomendo pra quem quiser comprar
+  						</p>
+  						<div class="star">
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  						</div>
+  					</div>
+  				</div>
+
+  				<div class="col-lg-4 col-md-6">
+  					<div class="single-review">
+  						<h4>Tatiane Fogaça</h4>
+  						<p>
+                Eu não pensei que fosse ficar, mas já faz mais de uma semana e parece bom. Apliquei duas demãos porque meu projeto era bem grande, mas estou muito feliz com o resultado. Secou durante a noite sem usar o secador, minha poltrona parece nova de novo!
+  						</p>
+  						<div class="star">
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  						</div>
+  					</div>
+  				</div>
+
+
+
+  				<div class="col-lg-4 col-md-6">
+  					<div class="single-review">
+  						<h4>Luis Vinicius</h4>
+  						<p>
+  							 Recebido em boa forma nenhum defeito, EU não usei ainda. Mas EU recomendo este vendedor
+  						</p>
+  						<div class="star">
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  							<span class="fa fa-star checked"></span>
+  						</div>
+              <img src="img/reviews/4.webp" class="img-fluid mt-4">
+
+  					</div>
+  				</div>
+
+
+          <div class="row">
+
+
+
+              <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Laís Isabela</h4>
+                <p>
+                  Comprei um de teste, mas já vou pedir outras, muito bom
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Mário Marcos</h4>
+                <p>
+                  impressionante, este Sproduto realmente funciona! Obrigado pela atenção do vendedor, super recomendo!
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Nicole Giovana</h4>
+                <p>
+                  A minha chegou hoje, obrigado pelo atendimento
+
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Ruan Hugo</h4>
+                <p>
+                  O meu problema é mais grave entao nao solucionou 100%, mas para trincados leves ela tira tudo
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Maitê Esther</h4>
+                <p>
+                  Demorou mas chegou, e o produto e muito bom
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star "></span>
+                </div>
+
+                <img src="img/reviews/3.jpg" class="img-fluid mt-4">
+
+
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Patrícia Giovanna</h4>
+                <p>
+                  Ah embalagem veio um pouco amassada, mas amei o produto
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Luan Henrique</h4>
+                <p>
+                  AMEIII!! produto muito bom galera recomendo demais
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Pietro Henry</h4>
+                <p>
+                  Muito eficiente!
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Marcelo Severino</h4>
+                <p>
+                  Ainda nao testei, mas na chegou ate mais rapido do prazo, um abraço logo menos testarei
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+
+
+
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Renan Marcos</h4>
+                <p>
+                  Legal dms cara, produto inovador
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Everiton Nevony</h4>
+                <p>
+                  Bacana demais o produto em, ja preciso de mais kkk so esperar a situação desapertar e vou fazer outro pedido, abraçao!!
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Joaquim Carlos</h4>
+                <p>
+                  No sou grato dms a vocês, me ajudaram muito com o produto
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Giovana Stefany</h4>
+                <p>
+                  Condiz com o esperado !
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star "></span>
+                </div>
+
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Allana Isabelly</h4>
+                <p>
+                  Superou minhas expectativas
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+
+
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Luiza Larissa</h4>
+                <p>
+                  Tirou o trincado da tela do celular,vou comprar mais para deixar de reserva RSRSRS
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Yasmin Luana</h4>
+                <p>
+                  Sempre gosto de testar produtos, esse ai eu realmente me interessei demais achei que era ate mentira, porem tive um belo resultado com ele
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Marcos Vinicius</h4>
+                <p>
+                  Rapaz, que produto legal cara funcionou mesmo
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Leandro Murilo</h4>
+                <p>
+                  Produtin bao esse ai
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Gabriela Alícia</h4>
+                <p>
+                  Mano que produto f@%#, desculpa o termo mas eu precisava demais e vcs me salvaram
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star "></span>
+                </div>
+                <img src="img/reviews/5.webp" class="img-fluid mt-4">
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Clarice Daiane</h4>
+                <p>
+                  Ate agora testei no trincado do meu fogão, e deu um ótimo resultado, esperar meu carro pra ver se funciona no farol dele tambem
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+
+
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="single-review">
+                <h4>Sandra Sophie</h4>
+                <p>
+                  Ja e o segundo produto que compro dessa loja, comprei a cera e agora essa, a cera funcionou muito bem espero que esse tambem funcione
+                </p>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+
+
+  				<div class="col-md-4"></div>
+  				<a class="typeform-share button col-md-4" href="https://contato649919.typeform.com/to/kCfzvH" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#1186cd;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Deixe uma avaliação </a>
+  				<script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
+  				<div class="col-md-4">
+  					<div>
+  					</div>
+
+  				</div>
+  	</div>
+  </div>
+  </section>
+</div>
+
+<!--
+<div id="resultsel3">
+  div3
+</div> -->
+
+
+
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <!-- <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+
+    <hr class="my-4"> -->
+
+    <!-- Social icons -->
+    <!-- <div class="pb-4"> -->
+
+    <!-- </div> -->
+    <!-- Social icons -->
+
+    <!--Copyright-->
+    <!-- <div class="footer-copyright py-3"> -->
+      <!-- © 2021 Copyright: -->
+      <!-- <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> VEGAZ </a> -->
+    <!-- </div> -->
+    <!--/.Copyright-->
+
+  <!-- </footer> -->
+  <!--/.Footer-->
+
+
+  <footer class="footer-area section-gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<h6 style="color: #fff;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 600;">Contato</h6>
+						<p>
+							Oferecemos contato via e-mail <a href="mailto:contato@vegaz.com.br" style="color: #0e84be;">contato@vegaz.com.br</a> das 9:00AM as 18:00PM de SEGUNDA A
+							SEXTA!
+						</p>
+						<p class="footer-text">
+
+							Copyright ©
+							<script>document.write(new Date().getFullYear());</script>2021 Todos os direitos reservados por
+							<a href="#" target="_blank">Vegaz</a>
+
+						</p>
+						<h4 style="font-family: sans-serif;font-weight: 100;color: #777777;">CNPJ 38.153.958/0001-95
+						</h4>
+					</div>
+				</div>
+				<div class="col-lg-5  col-md-6 col-sm-6 single-footer-img">
+					<div class="single-footer-widget">
+					</div>
+
+				</div>
+				<div class="p-4 col-lg-3 col-md-6 col-sm-6 social-widget vegaz-footer">
+
+				</div>
+				<a href="sobre/politica.html" class="ml-3 mt-5" style="color: #0e84be; font-size:10px;">POLITICAS DE
+					TROCAS E ORIGEM</a>
+
+        <!-- <a href="sobre/prazo.html" class="ml-3 mt-5" style="color: #0e84be; font-size:12px;">PRAZO E ENTREGA</a> -->
+			</div>
+		</div>
+	</footer>
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+
+  </script>
+
+  <script src="js/vendor/jquery-2.2.4.min.js"></script>
+
+  <SCRIPT>
+    var selected="sel1";
+    var disp="resultsel1";
+    function show(a,b)
+    {
+      document.getElementById(selected).style.backgroundColor = "rgb(150,150,150)";
+    document.getElementById(disp).style.display = "none";
+
+      document.getElementById(a).style.backgroundColor = "rgb(200,200,200)";
+
+document.getElementById(b).style.display = "block";
+    selected=a;
+    disp=b;
+    }
+</SCRIPT>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"></script>
+<script>
+
+  $(document).ready(function () {
+    // Get Origin
+    function getOrigin() {
+      return document.referrer;
+    }
+
+    function instagramTraffic(origin) {
+      return origin.match('instagram')
+    }
+
+    function facebookTraffic(origin) {
+      return origin.match('facebook')
+    }
+
+
+const whiteUrlArray = [
+  "https://seguro.vegaz.com.br/checkout/3059890289/12",
+  "https://seguro.vegaz.com.br/checkout/3059998272/12",
+  "https://seguro.vegaz.com.br/checkout/3059242598/12",
+  "https://seguro.vegaz.com.br/checkout/3059736474/12",
+  "https://seguro.vegaz.com.br/checkout/3059760490/12",
+  "https://seguro.vegaz.com.br/checkout/3059873780/12",
+  "https://seguro.vegaz.com.br/checkout/3059125579/12",
+  "https://seguro.vegaz.com.br/checkout/3059309181/12",
+  "https://seguro.vegaz.com.br/checkout/3059762876/12",
+  "https://seguro.vegaz.com.br/checkout/3059901995/12",
+    ];
+
+    const blackUrlArray = [
+      "https://seguro.vegaz.com.br/checkout/3059890289/12",
+      "https://seguro.vegaz.com.br/checkout/3059998272/12",
+      "https://seguro.vegaz.com.br/checkout/3059242598/12",
+      "https://seguro.vegaz.com.br/checkout/3059736474/12",
+      "https://seguro.vegaz.com.br/checkout/3059760490/12",
+      "https://seguro.vegaz.com.br/checkout/3059873780/12",
+      "https://seguro.vegaz.com.br/checkout/3059125579/12",
+      "https://seguro.vegaz.com.br/checkout/3059309181/12",
+      "https://seguro.vegaz.com.br/checkout/3059762876/12",
+      "https://seguro.vegaz.com.br/checkout/3059901995/12",
+    ];
+
+
+  const whiteUrlFacebook = [
+    "https://seguro.vegaz.com.br/checkout/3059890289/12",
+    "https://seguro.vegaz.com.br/checkout/3059998272/12",
+    "https://seguro.vegaz.com.br/checkout/3059242598/12",
+    "https://seguro.vegaz.com.br/checkout/3059736474/12",
+    "https://seguro.vegaz.com.br/checkout/3059760490/12",
+    "https://seguro.vegaz.com.br/checkout/3059873780/12",
+    "https://seguro.vegaz.com.br/checkout/3059125579/12",
+    "https://seguro.vegaz.com.br/checkout/3059309181/12",
+    "https://seguro.vegaz.com.br/checkout/3059762876/12",
+    "https://seguro.vegaz.com.br/checkout/3059901995/12",
+              ];
+
+              const blackUrlFacebook = [
+                "https://seguro.vegaz.com.br/checkout/3059890289/12",
+                "https://seguro.vegaz.com.br/checkout/3059998272/12",
+                "https://seguro.vegaz.com.br/checkout/3059242598/12",
+                "https://seguro.vegaz.com.br/checkout/3059736474/12",
+                "https://seguro.vegaz.com.br/checkout/3059760490/12",
+                "https://seguro.vegaz.com.br/checkout/3059873780/12",
+                "https://seguro.vegaz.com.br/checkout/3059125579/12",
+                "https://seguro.vegaz.com.br/checkout/3059309181/12",
+                "https://seguro.vegaz.com.br/checkout/3059762876/12",
+                "https://seguro.vegaz.com.br/checkout/3059901995/12",
+              ];
+
+    const whiteUrlInstagram = [
+      "https://seguro.vegaz.com.br/checkout/3059890289/12",
+      "https://seguro.vegaz.com.br/checkout/3059998272/12",
+      "https://seguro.vegaz.com.br/checkout/3059242598/12",
+      "https://seguro.vegaz.com.br/checkout/3059736474/12",
+      "https://seguro.vegaz.com.br/checkout/3059760490/12",
+      "https://seguro.vegaz.com.br/checkout/3059873780/12",
+      "https://seguro.vegaz.com.br/checkout/3059125579/12",
+      "https://seguro.vegaz.com.br/checkout/3059309181/12",
+      "https://seguro.vegaz.com.br/checkout/3059762876/12",
+      "https://seguro.vegaz.com.br/checkout/3059901995/12",
+    ];
+
+    const blackUrlInstagram = [
+      "https://seguro.vegaz.com.br/checkout/3059890289/12",
+      "https://seguro.vegaz.com.br/checkout/3059998272/12",
+      "https://seguro.vegaz.com.br/checkout/3059242598/12",
+      "https://seguro.vegaz.com.br/checkout/3059736474/12",
+      "https://seguro.vegaz.com.br/checkout/3059760490/12",
+      "https://seguro.vegaz.com.br/checkout/3059873780/12",
+      "https://seguro.vegaz.com.br/checkout/3059125579/12",
+      "https://seguro.vegaz.com.br/checkout/3059309181/12",
+      "https://seguro.vegaz.com.br/checkout/3059762876/12",
+      "https://seguro.vegaz.com.br/checkout/3059901995/12",
+    ];
+
+
+    const baseValueOld = 194;
+    const baseValuePromo = 97;
+
+    const origin = getOrigin();
+
+    updateOfferBlack(1)
+    updateOfferWhite(1)
+
+    //white
+    $('.white-plus').click(function (e) {
+      // Stop acting like a button
+      e.preventDefault();
+      // Get the field name
+      const quantity = parseInt($('#quantity-white').val());
+      // If is not undefined
+      if (quantity >= whiteUrlArray.length) {
+        return;
+      }
+      const newValue = quantity + 1;
+      $('#quantity-white').val(newValue);
+      updateOfferWhite(newValue);
+      // Increment
+    });
+
+    $('.white-minus').click(function (e) {
+      // Stop acting like a button
+      e.preventDefault();
+      // Get the field name
+      var quantity = parseInt($('#quantity-white').val());
+      // If is not undefined
+      // Increment
+      if (quantity > 1) {
+        const newValue = quantity - 1;
+        $('#quantity-white').val(newValue);
+        updateOfferWhite(newValue);
+      }
+    });
+
+    //black
+    $('.black-plus').click(function (e) {
+      // Stop acting like a button
+      e.preventDefault();
+      // Get the field name
+      var quantity = parseInt($('#quantity-black').val());
+      // If is not undefined
+      if (quantity >= blackUrlArray.length) {
+        return;
+      }
+      const newValue = quantity + 1;
+      $('#quantity-black').val(newValue);
+      updateOfferBlack(newValue);
+      // Increment
+    });
+
+    $('.black-minus').click(function (e) {
+      // Stop acting like a button
+      e.preventDefault();
+      // Get the field name
+      var quantity = parseInt($('#quantity-black').val());
+      // If is not undefined
+      // Increment
+      if (quantity > 1) {
+        const newValue = quantity - 1;
+        $('#quantity-black').val(newValue);
+        updateOfferBlack(newValue);
+      }
+    });
+
+    function updateOfferBlack(qty) {
+      let referenceArray = blackUrlArray;
+
+      if (instagramTraffic(origin)) {
+        referenceArray = blackUrlInstagram;
+
+
+
+
+      }
+
+      if (facebookTraffic(origin)) {
+        referenceArray = blackUrlFacebook;
+      }
+
+      const href = referenceArray[qty - 1]
+      updateBlackButton(href);
+      const priceOld = qty * baseValueOld;
+      const pricePromo = qty * baseValuePromo;
+      $('#price-black-old').text(priceOld);
+      $('#price-black-promo').text(pricePromo);
+
+    }
+
+    function updateOfferWhite(qty) {
+      let referenceArray = whiteUrlArray;
+
+
+      if (instagramTraffic(origin)) {
+        referenceArray = whiteUrlInstagram;
+
+
+
+      }
+
+      if (facebookTraffic(origin)) {
+        referenceArray = whiteUrlFacebook;
+      }
+
+      const href = referenceArray[qty - 1]
+      updateWhiteButton(href);
+      const priceOld = qty * baseValueOld;
+      const pricePromo = qty * baseValuePromo;
+      $('#price-white-old').text(priceOld);
+      $('#price-white-promo').text(pricePromo);
+
+    }
+
+    function updateBlackButton(href) {
+      $('#buy-black').attr('href', href);
+    }
+
+    function updateWhiteButton(href) {
+      $('#buy-white').attr('href', href);
+    }
+  })
+
+
+
+</script>
+
+</body>
+
+</html>
