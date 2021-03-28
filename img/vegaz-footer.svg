@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg903"
+   version="1.1"
+   viewBox="0 0 112.65184 38.195763"
+   height="38.195763"
+   width="112.65186"
+   sodipodi:docname="vegaz-footer.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1898"
+     inkscape:window-height="1038"
+     id="namedview889"
+     showgrid="false"
+     inkscape:zoom="6.5250111"
+     inkscape:cx="68.596208"
+     inkscape:cy="48.645498"
+     inkscape:window-x="9"
+     inkscape:window-y="29"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g1423"
+     inkscape:document-rotation="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="6.5"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata909">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs907">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1059">
+      <stop
+         style="stop-color:#f9af29;stop-opacity:1"
+         offset="0"
+         id="stop1055" />
+      <stop
+         style="stop-color:#ee7415;stop-opacity:1"
+         offset="1"
+         id="stop1057" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1053"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,3,0,1 @ F,0,0,1,0,3,0,1 @ F,0,0,1,0,3,0,1 @ F,0,0,1,0,3,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="3"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1047"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,1,0,1,0,0.02,0,1 @ F,1,0,1,0,0.02,0,1 @ F,1,0,1,0,0.02,0,1 @ F,1,0,1,0,0.02,0,1"
+       unit="px"
+       method="arc"
+       mode="F"
+       radius="2"
+       chamfer_steps="1"
+       flexible="true"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1045"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="0"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1059"
+       id="linearGradient1061"
+       x1="106.01466"
+       y1="29.277868"
+       x2="126.28366"
+       y2="29.277868"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2646683,0,0,1.0774666,-41.357078,-5.5965442)" />
+  </defs>
+  <g
+     transform="translate(-0.45117185,-7.5390621)"
+     style="font-size:33px;font-family:Roboto-Regular, Roboto;fill:#707070"
+     id="VegazTransparente"
+     aria-label="Vegaz">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px"
+       x="100.66023"
+       y="25.215115"
+       id="text1065"><tspan
+         sodipodi:role="line"
+         id="tspan1063"
+         x="100.66023"
+         y="25.215115" /></text>
+    <g
+       id="g1423"
+       transform="matrix(1.2595389,0,0,1.2595389,-0.11709668,-1.9566804)">
+      <path
+         id="path927"
+         d="M 10.489746,26.891113 17.192871,7.5390625 H 20.57666 L 11.875488,31 H 9.1362305 L 0.45117188,7.5390625 H 3.8188477 Z"
+         style="fill:#e6e6e6;fill-opacity:1" />
+      <path
+         id="path929"
+         d="m 29.777344,31.322266 q -3.544922,0 -5.768555,-2.320313 -2.223633,-2.336426 -2.223633,-6.23584 v -0.547851 q 0,-2.594239 0.98291,-4.624512 0.999024,-2.046387 2.771485,-3.19043 1.788574,-1.160156 3.867187,-1.160156 3.399903,0 5.285157,2.239746 1.885253,2.239746 1.885253,6.413086 v 1.240723 H 24.766113 q 0.06445,2.578125 1.498535,4.17334 1.450196,1.579101 3.673829,1.579101 1.579101,0 2.674804,-0.644531 1.095703,-0.644531 1.917481,-1.708008 l 1.8208,1.417969 q -2.191406,3.367676 -6.574218,3.367676 z M 29.406738,15.692383 q -1.804687,0 -3.029297,1.321289 -1.224609,1.305176 -1.514648,3.673828 h 8.733398 v -0.225586 q -0.128906,-2.271973 -1.224609,-3.512695 -1.095703,-1.256836 -2.964844,-1.256836 z"
+         style="fill:#e6e6e6;fill-opacity:1" />
+      <path
+         id="path931"
+         d="m 39.316406,22.137695 q 0,-4.07666 1.885254,-6.477539 1.885254,-2.416992 4.995117,-2.416992 3.19043,0 4.979004,2.255859 l 0.14502,-1.933593 h 2.723144 v 17.015625 q 0,3.383789 -2.01416,5.333496 -1.998047,1.949707 -5.381836,1.949707 -1.885254,0 -3.689941,-0.805664 -1.804688,-0.805664 -2.755371,-2.20752 L 41.749512,33.0625 q 1.91748,2.368652 4.688965,2.368652 2.175293,0 3.383789,-1.224609 1.224609,-1.224609 1.224609,-3.448242 v -1.498535 q -1.788574,2.0625 -4.882324,2.0625 -3.061524,0 -4.962891,-2.465332 -1.885254,-2.465332 -1.885254,-6.719239 z m 2.997071,0.338379 q 0,2.948731 1.208496,4.640625 1.208496,1.675781 3.383789,1.675781 2.819824,0 4.141113,-2.562011 v -7.959961 q -1.369629,-2.497559 -4.108887,-2.497559 -2.175293,0 -3.399902,1.691895 -1.224609,1.691894 -1.224609,5.01123 z"
+         style="fill:#e6e6e6;fill-opacity:1" />
+      <path
+         id="path933"
+         d="m 69.303223,31 q -0.257813,-0.515625 -0.418946,-1.836914 -2.078613,2.15918 -4.96289,2.15918 -2.578125,0 -4.237793,-1.450196 -1.643555,-1.466308 -1.643555,-3.706054 0,-2.723145 2.0625,-4.22168 2.078613,-1.514649 5.833008,-1.514649 h 2.90039 v -1.369628 q 0,-1.562989 -0.93457,-2.481446 -0.93457,-0.93457 -2.755371,-0.93457 -1.595215,0 -2.674805,0.805664 -1.079589,0.805664 -1.079589,1.949707 h -2.997071 q 0,-1.305176 0.918457,-2.513672 0.934571,-1.224609 2.513672,-1.933594 1.595215,-0.708984 3.496582,-0.708984 3.013184,0 4.721192,1.514649 1.708007,1.498535 1.772461,4.141113 v 8.024414 q 0,2.400879 0.612304,3.818847 V 31 Z m -4.946778,-2.271973 q 1.401856,0 2.658692,-0.725097 1.256836,-0.725098 1.8208,-1.885254 v -3.577149 h -2.336425 q -5.478516,0 -5.478516,3.206543 0,1.401856 0.93457,2.191407 0.934571,0.78955 2.400879,0.78955 z"
+         style="fill:#e6e6e6;fill-opacity:1" />
+      <path
+         id="path935"
+         style="fill:#f9af20;fill-opacity:1"
+         d="M 79.293457,28.566895 H 89.493164 V 31 H 75.651855 V 28.808594 L 85.271484,16.030762 H 75.796875 V 13.56543 h 13.212891 v 2.11084 z" />
+    </g>
+  </g>
+  <!-- Code injected by live-server -->
+  <script
+     type="text/javascript"
+     id="script908">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function() {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function(msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			console.log('Live reload enabled.');
+		})();
+	}
+	// ]]></script>
+  <!-- Code injected by live-server -->
+  <script
+     type="text/javascript"
+     id="script910">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function() {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function(msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			console.log('Live reload enabled.');
+		})();
+	}
+	// ]]></script>
+</svg>
